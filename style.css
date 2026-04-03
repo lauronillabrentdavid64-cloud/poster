@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(45deg,grey,blue);
+}
+.poster {
+    color: aliceblue;
+}
+.typing-text::after{
+    content: "-work hard";
+    animation: typing 3s infinite;
+    color: black;
+    font-size: 15px;
+}
+@keyframes typing{
+    50%{content: "-stay focused";}
+}
